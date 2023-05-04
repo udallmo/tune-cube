@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2023-05-03T23:38:33.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lCRWEHuq4QY3l05phtzb" version="21.2.7" type="device">
+  <diagram name="Page-1" id="IMiYzBTxq7M08PO6sf2x">
+    <mxGraphModel dx="1222" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cHyRnZ-h-_9E47zOe4kV-1" target="cHyRnZ-h-_9E47zOe4kV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-1" value="Terraform Apply&lt;br&gt;(deployment)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="610" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cHyRnZ-h-_9E47zOe4kV-7" target="cHyRnZ-h-_9E47zOe4kV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-7" value="Cloudwatch Alarm&lt;br&gt;(weekly trigger)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-8" value="Lambda&lt;br&gt;(Python code)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="490" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cHyRnZ-h-_9E47zOe4kV-10" target="cHyRnZ-h-_9E47zOe4kV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-10" value="Spotify API&lt;br&gt;(fetch top song this week)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="550" y="293.9" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cHyRnZ-h-_9E47zOe4kV-11" target="cHyRnZ-h-_9E47zOe4kV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-11" value="Youtube Data API&lt;br&gt;(retreive videos)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="293.9" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cHyRnZ-h-_9E47zOe4kV-12" target="cHyRnZ-h-_9E47zOe4kV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-12" value="PyTube&lt;br&gt;(download video)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="398.9" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="425" y="560" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-14" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="388.9" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-17" value="AVI Video Player" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cHyRnZ-h-_9E47zOe4kV-14" target="cHyRnZ-h-_9E47zOe4kV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="240" y="330.7" width="45" height="49.3" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cHyRnZ-h-_9E47zOe4kV-8" target="cHyRnZ-h-_9E47zOe4kV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://codeopinion.com/wp-content/uploads/2019/08/aws-cloudwatch-logo-png-transparent.png;" vertex="1" parent="1">
+          <mxGeometry x="387.75" y="110" width="44.5" height="50.42" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-30" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Orange_lambda.svg/1959px-Orange_lambda.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="590" y="118.61" width="40" height="41.81" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="680" y="305.7" width="39.3" height="39.3" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-33" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png;" vertex="1" parent="1">
+          <mxGeometry x="320" y="293.9" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon-S3-Logo.svg/1200px-Amazon-S3-Logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="660" y="398.90000000000003" width="42.5" height="50.85" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-36" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png;" vertex="1" parent="1">
+          <mxGeometry x="410.5" y="550" width="83.25" height="83.39" as="geometry" />
+        </mxCell>
+        <mxCell id="cHyRnZ-h-_9E47zOe4kV-37" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://blogs.vmware.com/cloudprovider/files/2019/04/og-image-8b3e4f7d-blog-aspect-ratio.png;" vertex="1" parent="1">
+          <mxGeometry x="61.25" y="211.85" width="97.5" height="73.15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
